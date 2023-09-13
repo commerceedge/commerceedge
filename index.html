@@ -41,15 +41,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="twitter:description" content="Get the best commerce education with Commerce Edge, where enrolled students study XI STD to M.COM (All Streams), including XII STD and B.COM." />
   <meta name="twitter:image" content="https://www.commerceedge.in/images/logo.png" />  		
    <meta name="author" content="Commerce Edge" />
-	
-
-
 <meta name="google-site-verification" content="u003dXpQxnk6Bp-Vfk9VeryhddThnkA1TzL6XtyLHq3Nx8i8" />
-	
 
-
-	
-	
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",      
+      "name": "COMMERCE EDGE | STUDY CENTER IN KOTA", // Updated "name" property here
+	  "@id": "https://www.commerceedge.in/",
+      "url": "https://www.commerceedge.in/",
+      "isPartOf": {
+        "@id": "https://www.commerceedge.in/#website"
+      },
+      "about": {
+        "@id": "https://www.commerceedge.in/#organization"
+      },
+      "thumbnailUrl": "https://www.commerceedge.in/images/logo.png",
+      "datePublished": "2023-05-14T00:00:00+00:00",
+      "dateModified": "2023-05-14T00:00:00+00:00",
+      "description": "Commerce Edge : A premier commerce education center where enrolled students study XI STD to M.COM (All Streams), including XII STD and B.COM.",
+      "breadcrumb": {
+        "@id": "https://www.commerceedge.in/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.commerceedge.in/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.commerceedge.in/#primaryimage",
+      "url": "https://www.commerceedge.in/images/logo.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.commerceedge.in/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.commerceedge.in/"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+	  "name": "COMMERCE EDGE", // Retaining "COMMERCE EDGE" as the "name" property here
+      "@id": "https://www.commerceedge.in/#website",
+      "url": "https://www.commerceedge.in/",      
+      "description": "Leading Commerce Education Center",
+      "publisher": {
+        "@id": "https://www.commerceedge.in/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": "https://www.commerceedge.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+	  "name": "COMMERCE EDGE", // Retaining "COMMERCE EDGE" as the "name" property here
+      "@id": "https://www.commerceedge.in/#organization",      
+      "url": "https://www.commerceedge.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://www.commerceedge.in/#logo",
+        "url": "https://www.commerceedge.in/images/logo.png"
+      }
+    }
+  ]
+}
+</script>
 	
 	
 	
@@ -106,112 +182,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 },e.easing["easeInOut"+t]=function(e){return.5>e?i(2*e)/2:1-i(-2*e+2)/2}})}(),e.effects,e.effects.effect.blind=function(t,i){var s,n,a,o=e(this),r=/up|down|vertical/,h=/up|left|vertical|horizontal/,l=["position","top","bottom","left","right","height","width"],u=e.effects.setMode(o,t.mode||"hide"),c=t.direction||"up",d=r.test(c),p=d?"height":"width",f=d?"top":"left",m=h.test(c),g={},v="show"===u;o.parent().is(".ui-effects-wrapper")?e.effects.save(o.parent(),l):e.effects.save(o,l),o.show(),s=e.effects.createWrapper(o).css({overflow:"hidden"}),n=s[p](),a=parseFloat(s.css(f))||0,g[p]=v?n:0,m||(o.css(d?"bottom":"right",0).css(d?"top":"left","auto").css({position:"absolute"}),g[f]=v?a:n+a),v&&(s.css(p,0),m||s.css(f,a+n)),s.animate(g,{duration:t.duration,easing:t.easing,queue:!1,complete:function(){"hide"===u&&o.hide(),e.effects.restore(o,l),e.effects.removeWrapper(o),i()}})},e.effects.effect.bounce=function(t,i){var s,n,a,o=e(this),r=["position","top","bottom","left","right","height","width"],h=e.effects.setMode(o,t.mode||"effect"),l="hide"===h,u="show"===h,c=t.direction||"up",d=t.distance,p=t.times||5,f=2*p+(u||l?1:0),m=t.duration/f,g=t.easing,v="up"===c||"down"===c?"top":"left",_="up"===c||"left"===c,b=o.queue(),y=b.length;for((u||l)&&r.push("opacity"),e.effects.save(o,r),o.show(),e.effects.createWrapper(o),d||(d=o["top"===v?"outerHeight":"outerWidth"]()/3),u&&(a={opacity:1},a[v]=0,o.css("opacity",0).css(v,_?2*-d:2*d).animate(a,m,g)),l&&(d/=Math.pow(2,p-1)),a={},a[v]=0,s=0;p>s;s++)n={},n[v]=(_?"-=":"+=")+d,o.animate(n,m,g).animate(a,m,g),d=l?2*d:d/2;l&&(n={opacity:0},n[v]=(_?"-=":"+=")+d,o.animate(n,m,g)),o.queue(function(){l&&o.hide(),e.effects.restore(o,r),e.effects.removeWrapper(o),i()}),y>1&&b.splice.apply(b,[1,0].concat(b.splice(y,f+1))),o.dequeue()},e.effects.effect.clip=function(t,i){var s,n,a,o=e(this),r=["position","top","bottom","left","right","height","width"],h=e.effects.setMode(o,t.mode||"hide"),l="show"===h,u=t.direction||"vertical",c="vertical"===u,d=c?"height":"width",p=c?"top":"left",f={};e.effects.save(o,r),o.show(),s=e.effects.createWrapper(o).css({overflow:"hidden"}),n="IMG"===o[0].tagName?s:o,a=n[d](),l&&(n.css(d,0),n.css(p,a/2)),f[d]=l?a:0,f[p]=l?0:a/2,n.animate(f,{queue:!1,duration:t.duration,easing:t.easing,complete:function(){l||o.hide(),e.effects.restore(o,r),e.effects.removeWrapper(o),i()}})},e.effects.effect.drop=function(t,i){var s,n=e(this),a=["position","top","bottom","left","right","opacity","height","width"],o=e.effects.setMode(n,t.mode||"hide"),r="show"===o,h=t.direction||"left",l="up"===h||"down"===h?"top":"left",u="up"===h||"left"===h?"pos":"neg",c={opacity:r?1:0};e.effects.save(n,a),n.show(),e.effects.createWrapper(n),s=t.distance||n["top"===l?"outerHeight":"outerWidth"](!0)/2,r&&n.css("opacity",0).css(l,"pos"===u?-s:s),c[l]=(r?"pos"===u?"+=":"-=":"pos"===u?"-=":"+=")+s,n.animate(c,{queue:!1,duration:t.duration,easing:t.easing,complete:function(){"hide"===o&&n.hide(),e.effects.restore(n,a),e.effects.removeWrapper(n),i()}})},e.effects.effect.explode=function(t,i){function s(){b.push(this),b.length===c*d&&n()}function n(){p.css({visibility:"visible"}),e(b).remove(),m||p.hide(),i()}var a,o,r,h,l,u,c=t.pieces?Math.round(Math.sqrt(t.pieces)):3,d=c,p=e(this),f=e.effects.setMode(p,t.mode||"hide"),m="show"===f,g=p.show().css("visibility","hidden").offset(),v=Math.ceil(p.outerWidth()/d),_=Math.ceil(p.outerHeight()/c),b=[];for(a=0;c>a;a++)for(h=g.top+a*_,u=a-(c-1)/2,o=0;d>o;o++)r=g.left+o*v,l=o-(d-1)/2,p.clone().appendTo("body").wrap("<div></div>").css({position:"absolute",visibility:"visible",left:-o*v,top:-a*_}).parent().addClass("ui-effects-explode").css({position:"absolute",overflow:"hidden",width:v,height:_,left:r+(m?l*v:0),top:h+(m?u*_:0),opacity:m?0:1}).animate({left:r+(m?0:l*v),top:h+(m?0:u*_),opacity:m?1:0},t.duration||500,t.easing,s)},e.effects.effect.fade=function(t,i){var s=e(this),n=e.effects.setMode(s,t.mode||"toggle");s.animate({opacity:n},{queue:!1,duration:t.duration,easing:t.easing,complete:i})},e.effects.effect.fold=function(t,i){var s,n,a=e(this),o=["position","top","bottom","left","right","height","width"],r=e.effects.setMode(a,t.mode||"hide"),h="show"===r,l="hide"===r,u=t.size||15,c=/([0-9]+)%/.exec(u),d=!!t.horizFirst,p=h!==d,f=p?["width","height"]:["height","width"],m=t.duration/2,g={},v={};e.effects.save(a,o),a.show(),s=e.effects.createWrapper(a).css({overflow:"hidden"}),n=p?[s.width(),s.height()]:[s.height(),s.width()],c&&(u=parseInt(c[1],10)/100*n[l?0:1]),h&&s.css(d?{height:0,width:u}:{height:u,width:0}),g[f[0]]=h?n[0]:u,v[f[1]]=h?n[1]:0,s.animate(g,m,t.easing).animate(v,m,t.easing,function(){l&&a.hide(),e.effects.restore(a,o),e.effects.removeWrapper(a),i()})},e.effects.effect.highlight=function(t,i){var s=e(this),n=["backgroundImage","backgroundColor","opacity"],a=e.effects.setMode(s,t.mode||"show"),o={backgroundColor:s.css("backgroundColor")};"hide"===a&&(o.opacity=0),e.effects.save(s,n),s.show().css({backgroundImage:"none",backgroundColor:t.color||"#ffff99"}).animate(o,{queue:!1,duration:t.duration,easing:t.easing,complete:function(){"hide"===a&&s.hide(),e.effects.restore(s,n),i()}})},e.effects.effect.size=function(t,i){var s,n,a,o=e(this),r=["position","top","bottom","left","right","width","height","overflow","opacity"],h=["position","top","bottom","left","right","overflow","opacity"],l=["width","height","overflow"],u=["fontSize"],c=["borderTopWidth","borderBottomWidth","paddingTop","paddingBottom"],d=["borderLeftWidth","borderRightWidth","paddingLeft","paddingRight"],p=e.effects.setMode(o,t.mode||"effect"),f=t.restore||"effect"!==p,m=t.scale||"both",g=t.origin||["middle","center"],v=o.css("position"),_=f?r:h,b={height:0,width:0,outerHeight:0,outerWidth:0};"show"===p&&o.show(),s={height:o.height(),width:o.width(),outerHeight:o.outerHeight(),outerWidth:o.outerWidth()},"toggle"===t.mode&&"show"===p?(o.from=t.to||b,o.to=t.from||s):(o.from=t.from||("show"===p?b:s),o.to=t.to||("hide"===p?b:s)),a={from:{y:o.from.height/s.height,x:o.from.width/s.width},to:{y:o.to.height/s.height,x:o.to.width/s.width}},("box"===m||"both"===m)&&(a.from.y!==a.to.y&&(_=_.concat(c),o.from=e.effects.setTransition(o,c,a.from.y,o.from),o.to=e.effects.setTransition(o,c,a.to.y,o.to)),a.from.x!==a.to.x&&(_=_.concat(d),o.from=e.effects.setTransition(o,d,a.from.x,o.from),o.to=e.effects.setTransition(o,d,a.to.x,o.to))),("content"===m||"both"===m)&&a.from.y!==a.to.y&&(_=_.concat(u).concat(l),o.from=e.effects.setTransition(o,u,a.from.y,o.from),o.to=e.effects.setTransition(o,u,a.to.y,o.to)),e.effects.save(o,_),o.show(),e.effects.createWrapper(o),o.css("overflow","hidden").css(o.from),g&&(n=e.effects.getBaseline(g,s),o.from.top=(s.outerHeight-o.outerHeight())*n.y,o.from.left=(s.outerWidth-o.outerWidth())*n.x,o.to.top=(s.outerHeight-o.to.outerHeight)*n.y,o.to.left=(s.outerWidth-o.to.outerWidth)*n.x),o.css(o.from),("content"===m||"both"===m)&&(c=c.concat(["marginTop","marginBottom"]).concat(u),d=d.concat(["marginLeft","marginRight"]),l=r.concat(c).concat(d),o.find("*[width]").each(function(){var i=e(this),s={height:i.height(),width:i.width(),outerHeight:i.outerHeight(),outerWidth:i.outerWidth()};f&&e.effects.save(i,l),i.from={height:s.height*a.from.y,width:s.width*a.from.x,outerHeight:s.outerHeight*a.from.y,outerWidth:s.outerWidth*a.from.x},i.to={height:s.height*a.to.y,width:s.width*a.to.x,outerHeight:s.height*a.to.y,outerWidth:s.width*a.to.x},a.from.y!==a.to.y&&(i.from=e.effects.setTransition(i,c,a.from.y,i.from),i.to=e.effects.setTransition(i,c,a.to.y,i.to)),a.from.x!==a.to.x&&(i.from=e.effects.setTransition(i,d,a.from.x,i.from),i.to=e.effects.setTransition(i,d,a.to.x,i.to)),i.css(i.from),i.animate(i.to,t.duration,t.easing,function(){f&&e.effects.restore(i,l)})})),o.animate(o.to,{queue:!1,duration:t.duration,easing:t.easing,complete:function(){0===o.to.opacity&&o.css("opacity",o.from.opacity),"hide"===p&&o.hide(),e.effects.restore(o,_),f||("static"===v?o.css({position:"relative",top:o.to.top,left:o.to.left}):e.each(["top","left"],function(e,t){o.css(t,function(t,i){var s=parseInt(i,10),n=e?o.to.left:o.to.top;return"auto"===i?n+"px":s+n+"px"})})),e.effects.removeWrapper(o),i()}})},e.effects.effect.scale=function(t,i){var s=e(this),n=e.extend(!0,{},t),a=e.effects.setMode(s,t.mode||"effect"),o=parseInt(t.percent,10)||(0===parseInt(t.percent,10)?0:"hide"===a?0:100),r=t.direction||"both",h=t.origin,l={height:s.height(),width:s.width(),outerHeight:s.outerHeight(),outerWidth:s.outerWidth()},u={y:"horizontal"!==r?o/100:1,x:"vertical"!==r?o/100:1};n.effect="size",n.queue=!1,n.complete=i,"effect"!==a&&(n.origin=h||["middle","center"],n.restore=!0),n.from=t.from||("show"===a?{height:0,width:0,outerHeight:0,outerWidth:0}:l),n.to={height:l.height*u.y,width:l.width*u.x,outerHeight:l.outerHeight*u.y,outerWidth:l.outerWidth*u.x},n.fade&&("show"===a&&(n.from.opacity=0,n.to.opacity=1),"hide"===a&&(n.from.opacity=1,n.to.opacity=0)),s.effect(n)},e.effects.effect.puff=function(t,i){var s=e(this),n=e.effects.setMode(s,t.mode||"hide"),a="hide"===n,o=parseInt(t.percent,10)||150,r=o/100,h={height:s.height(),width:s.width(),outerHeight:s.outerHeight(),outerWidth:s.outerWidth()};e.extend(t,{effect:"scale",queue:!1,fade:!0,mode:n,complete:i,percent:a?o:100,from:a?h:{height:h.height*r,width:h.width*r,outerHeight:h.outerHeight*r,outerWidth:h.outerWidth*r}}),s.effect(t)},e.effects.effect.pulsate=function(t,i){var s,n=e(this),a=e.effects.setMode(n,t.mode||"show"),o="show"===a,r="hide"===a,h=o||"hide"===a,l=2*(t.times||5)+(h?1:0),u=t.duration/l,c=0,d=n.queue(),p=d.length;for((o||!n.is(":visible"))&&(n.css("opacity",0).show(),c=1),s=1;l>s;s++)n.animate({opacity:c},u,t.easing),c=1-c;n.animate({opacity:c},u,t.easing),n.queue(function(){r&&n.hide(),i()}),p>1&&d.splice.apply(d,[1,0].concat(d.splice(p,l+1))),n.dequeue()},e.effects.effect.shake=function(t,i){var s,n=e(this),a=["position","top","bottom","left","right","height","width"],o=e.effects.setMode(n,t.mode||"effect"),r=t.direction||"left",h=t.distance||20,l=t.times||3,u=2*l+1,c=Math.round(t.duration/u),d="up"===r||"down"===r?"top":"left",p="up"===r||"left"===r,f={},m={},g={},v=n.queue(),_=v.length;for(e.effects.save(n,a),n.show(),e.effects.createWrapper(n),f[d]=(p?"-=":"+=")+h,m[d]=(p?"+=":"-=")+2*h,g[d]=(p?"-=":"+=")+2*h,n.animate(f,c,t.easing),s=1;l>s;s++)n.animate(m,c,t.easing).animate(g,c,t.easing);n.animate(m,c,t.easing).animate(f,c/2,t.easing).queue(function(){"hide"===o&&n.hide(),e.effects.restore(n,a),e.effects.removeWrapper(n),i()}),_>1&&v.splice.apply(v,[1,0].concat(v.splice(_,u+1))),n.dequeue()},e.effects.effect.slide=function(t,i){var s,n=e(this),a=["position","top","bottom","left","right","width","height"],o=e.effects.setMode(n,t.mode||"show"),r="show"===o,h=t.direction||"left",l="up"===h||"down"===h?"top":"left",u="up"===h||"left"===h,c={};e.effects.save(n,a),n.show(),s=t.distance||n["top"===l?"outerHeight":"outerWidth"](!0),e.effects.createWrapper(n).css({overflow:"hidden"}),r&&n.css(l,u?isNaN(s)?"-"+s:-s:s),c[l]=(r?u?"+=":"-=":u?"-=":"+=")+s,n.animate(c,{queue:!1,duration:t.duration,easing:t.easing,complete:function(){"hide"===o&&n.hide(),e.effects.restore(n,a),e.effects.removeWrapper(n),i()}})},e.effects.effect.transfer=function(t,i){var s=e(this),n=e(t.to),a="fixed"===n.css("position"),o=e("body"),r=a?o.scrollTop():0,h=a?o.scrollLeft():0,l=n.offset(),u={top:l.top-r,left:l.left-h,height:n.innerHeight(),width:n.innerWidth()},c=s.offset(),d=e("<div class='ui-effects-transfer'></div>").appendTo(document.body).addClass(t.className).css({top:c.top-r,left:c.left-h,height:s.innerHeight(),width:s.innerWidth(),position:a?"fixed":"absolute"}).animate(u,t.duration,t.easing,function(){d.remove(),i()})}});
 
 </script>	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebPage",
-      "@id": "https://www.commerceedge.in/",
-      "url": "https://www.commerceedge.in/",
-      "name": "Commerce Edge | Leading Commerce Education Center",
-      "isPartOf": {
-        "@id": "https://www.commerceedge.in/#website"
-      },
-      "about": {
-        "@id": "https://www.commerceedge.in/#organization"
-      },
-      "thumbnailUrl": "https://www.commerceedge.in/images/logo.png",
-      "datePublished": "2023-05-14T00:00:00+00:00",
-      "dateModified": "2023-05-14T00:00:00+00:00",
-      "description": "Commerce Edge : A premier commerce education center where enrolled students study XI STD to M.COM (All Streams), including XII STD and B.COM.",
-      "breadcrumb": {
-        "@id": "https://www.commerceedge.in/#breadcrumb"
-      },
-      "inLanguage": "en-US",
-      "potentialAction": [
-        {
-          "@type": "ReadAction",
-          "target": [
-            "https://www.commerceedge.in/"
-          ]
-        }
-      ]
-    },
-    {
-      "@type": "ImageObject",
-      "inLanguage": "en-US",
-      "@id": "https://www.commerceedge.in/#primaryimage",
-      "url": "https://www.commerceedge.in/images/logo.png"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.commerceedge.in/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.commerceedge.in/"
-        }
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.commerceedge.in/#website",
-      "url": "https://www.commerceedge.in/",
-      "name": "Commerce Edge",
-      "description": "Leading Commerce Education Center",
-      "publisher": {
-        "@id": "https://www.commerceedge.in/#organization"
-      },
-      "potentialAction": [
-        {
-          "@type": "SearchAction",
-          "target": "https://www.commerceedge.in/search?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      ],
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://www.commerceedge.in/#organization",
-      "name": "Commerce Edge",
-      "url": "https://www.commerceedge.in/",
-      "logo": {
-        "@type": "ImageObject",
-        "inLanguage": "en-US",
-        "@id": "https://www.commerceedge.in/#logo",
-        "url": "https://www.commerceedge.in/images/logo.png"
-      },
-      "sameAs": [
-         "https://www.facebook.com/commerceedge.edge",
-        "https://twitter.com/CommerceEdge_IN"
-      ]
-    }
-  ]
-}
-</script>
-
-	
-
-
 <script type='text/javascript' src='js/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
 
 	
-	<link rel="shortcut icon" type="image/x-icon" href="wp-content/themes/apexwebstore/favicon.ico" />
+	
 	
 	
 	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
